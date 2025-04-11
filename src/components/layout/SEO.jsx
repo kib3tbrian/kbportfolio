@@ -17,11 +17,11 @@ const SEO = ({
   title, 
   description, 
   image = '/og-image.jpg', 
-  url = 'https://kibetbrian.com', 
+  url = 'https://kibetbrian.vercel.app', 
   type = 'website' 
 }) => {
   const siteTitle = 'Kibet Brian - Data Engineer';
-  const fullTitle = title === siteTitle ? title : `${title} | ${siteTitle}`;
+  const fullTitle = title === siteTitle ? title : ${title} | ${siteTitle};
   
   return (
     <Helmet>
@@ -36,17 +36,17 @@ const SEO = ({
       <meta property="og:url" content={url} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={`${url}${image}`} />
+      <meta property="og:image" content={${url}${image}} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:url" content={url} />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={`${url}${image}`} />
+      <meta name="twitter:image" content={${url}${image}} />
 
-      {/* Security headers */}
-      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self';" />
+      {/* Security headers - updated for Vercel deployment and API endpoint */}
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://wpmasterylab.com https://*.vercel.app https://vercel.app https://*.vercel.com;" />
       <meta http-equiv="X-Content-Type-Options" content="nosniff" />
       <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
       <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
