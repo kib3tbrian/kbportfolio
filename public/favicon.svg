@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle with gradient -->
+  <circle cx="250" cy="250" r="240" fill="url(#brandGradient)" />
+  
+  <!-- Stylized B letter -->
+  <path 
+    d="M170 150 L260 150 C310 150 350 180 350 230 C350 250 340 270 320 280 C340 290 360 310 360 340 C360 390 320 420 270 420 L170 420 Z M220 250 L260 250 C280 250 300 240 300 220 C300 200 280 190 260 190 L220 190 Z M220 380 L270 380 C290 380 310 370 310 340 C310 310 290 290 270 290 L220 290 Z" 
+    fill="white" 
+  />
+</svg>

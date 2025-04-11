@@ -1,0 +1,21 @@
+{
+  "short_name": "Kibet Brian Portfolio",
+  "name": "Kibet Brian - Data Engineer & Full Stack Developer",
+  "icons": [
+    {
+      "src": "kb192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "kb512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#3B82F6",
+  "background_color": "#2563EA"
+}
