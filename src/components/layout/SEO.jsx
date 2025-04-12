@@ -1,5 +1,3 @@
-// src/components/layout/SEO.jsx
-
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
@@ -57,6 +55,9 @@ const SEO = ({
       <link rel="manifest" href="/site.webmanifest" />
     </Helmet>
   );
+};
+
+export default SEO;
 };
 
 export default SEO;
