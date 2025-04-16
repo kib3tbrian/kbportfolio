@@ -83,7 +83,7 @@ const Skills = () => {
         </div>
         
         {/* Desktop view - Grid */}
-        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-5 gap-6">
           {skillsData.map((category, categoryIndex) => (
             <div 
               key={categoryIndex}
