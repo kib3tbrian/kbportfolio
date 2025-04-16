@@ -9,7 +9,8 @@ const skills = [
     skills: [
       { name: 'Python', level: 90, color: 'bg-blue-500' },
       { name: 'SQL', level: 85, color: 'bg-green-600' },
-      { name: 'Typescript/JavaScript (ES6+)', level: 80, color: 'bg-yellow-500' },
+      { name: 'JavaScript (ES6+)', level: 80, color: 'bg-yellow-500' },
+      { name: 'TypeScript', level: 78, color: 'bg-indigo-500' },
       { name: 'Go', level: 70, color: 'bg-cyan-600' }
     ]
   },
