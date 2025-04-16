@@ -58,6 +58,3 @@ const SEO = ({
 };
 
 export default SEO;
-};
-
-export default SEO;
