@@ -24,7 +24,7 @@ const SEO = ({
   return (
     <Helmet>
       {/* Basic metadata */}
-      <title>{fullTitle}</title>
+      <title>Kibet Brian</title>
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="canonical" href={url} />
