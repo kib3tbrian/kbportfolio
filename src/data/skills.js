@@ -10,7 +10,20 @@ const skills = [
       { name: 'Python', level: 90, color: 'bg-blue-500' },
       { name: 'SQL', level: 85, color: 'bg-green-600' },
       { name: 'JavaScript', level: 80, color: 'bg-yellow-500' },
-      { name: 'HTML/CSS', level: 75, color: 'bg-orange-500' }
+      { name: 'TypeScript', level: 78, color: 'bg-indigo-500' },
+      { name: 'Go', level: 70, color: 'bg-cyan-600' }
+    ]
+  },
+    { 
+    category: 'Frameworks/Libraries', 
+    skills: [
+      { name: 'React', level: 82, color: 'bg-sky-500' },
+      { name: 'Next.js', level: 80, color: 'bg-neutral-800' },
+      { name: 'Tailwind CSS', level: 75, color: 'bg-teal-500' },
+      { name: 'Node.js', level: 78, color: 'bg-green-700' },
+      { name: 'Express', level: 76, color: 'bg-gray-700' },
+      { name: 'Django', level: 70, color: 'bg-emerald-800' },
+      { name: 'FastAPI', level: 72, color: 'bg-blue-800' }
     ]
   },
   { 
