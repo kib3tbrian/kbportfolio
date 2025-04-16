@@ -15,7 +15,7 @@ const SEO = ({
   title, 
   description, 
   image = '/og-image.jpg', 
-  url = 'https://kibetbrian.vercel.app', 
+  url = 'https://kibetbrian.pro', 
   type = 'website' 
 }) => {
   const siteTitle = 'Kibet Brian - Data Engineer';
@@ -34,14 +34,14 @@ const SEO = ({
       <meta property="og:url" content={url} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={${url}${image}} />
+      <meta property="og:image" content={'${url}${image}'} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:url" content={url} />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={${url}${image}} />
+      <meta name="twitter:image" content={'${url}${image}'} />
 
       {/* Security headers - updated for Vercel deployment and API endpoint */}
       <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://wpmasterylab.com https://*.vercel.app https://vercel.app https://*.vercel.com;" />
