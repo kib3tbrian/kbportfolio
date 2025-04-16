@@ -19,7 +19,7 @@ const SEO = ({
   type = 'website' 
 }) => {
   const siteTitle = 'Kibet Brian - Data Engineer';
-  const fullTitle = title === siteTitle ? title : ${title} | ${siteTitle};
+  const fullTitle = title === siteTitle ? title : '${title} | ${siteTitle}';
   
   return (
     <Helmet>
