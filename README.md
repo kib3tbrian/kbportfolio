@@ -26,7 +26,7 @@
 ## Quick Start
 ```bash
 # Clone repository
-git clone https://github.com/jk08y/kimutai-portfolio.git
+git clone https://github.com/dunnytml/kbportfolio.git
 
 # Install dependencies
 npm install
@@ -52,9 +52,9 @@ Edit content in `/src/data` directory:
 - MIT License - no attribution required
 
 ## Contact
-Kimutai Joel - [kimutai@jkapp.pro](mailto:kimutai@jkapp.pro)
-GitHub: [jk08y](https://github.com/jk08y)
-Live: [pf.jkapp.pro](https://pf.jkapp.pro)
+Kibet Brian - [hello@kibetbrian.pro](mailto:hello@kibetbrian.pro)
+GitHub: [Dunny](https://github.com/dunnytml)
+Live: [kibetbrian.pro](https://kibetbrian.pro)
 
 ---
 Built with care | Feel free to fork!
