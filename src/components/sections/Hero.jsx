@@ -17,12 +17,10 @@ const Hero = () => {
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
       strings: [
-        'Data Engineer', 
+        'Software Engineer', 
         'Full Stack Developer', 
-        'Database Specialist',
-        'ETL Developer',
-        'Data Visualization Expert',
-        'Analytics Professional'
+        'Backend Engineer',
+        'API Developer'
       ],
       typeSpeed: 50,
       backSpeed: 40,
