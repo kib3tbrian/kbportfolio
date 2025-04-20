@@ -15,43 +15,42 @@ const skills = [
     ]
   },
     { 
-    category: 'Frameworks/Libraries', 
+    category: 'Frontend', 
     skills: [
       { name: 'React', level: 82, color: 'bg-sky-500' },
       { name: 'Next.js', level: 80, color: 'bg-neutral-800' },
       { name: 'Tailwind CSS', level: 75, color: 'bg-teal-500' },
-      { name: 'Express', level: 76, color: 'bg-gray-700' },
-      { name: 'Django', level: 70, color: 'bg-emerald-800' },
-      { name: 'FastAPI', level: 72, color: 'bg-blue-800' }
+      { name: 'Redux', level: 76, color: 'bg-gray-700' },
+      { name: 'React Native', level: 70, color: 'bg-emerald-800' }
     ]
   },
   { 
-    category: 'Data Engineering', 
+    category: 'Backend', 
     skills: [
-      { name: 'ETL Pipelines', level: 85, color: 'bg-indigo-600' },
-      { name: 'dbt', level: 80, color: 'bg-teal-500' },
-      { name: 'Airflow', level: 80, color: 'bg-blue-700' },
-      { name: 'PySpark', level: 75, color: 'bg-orange-600' },
-      { name: 'Kafka', level: 70, color: 'bg-red-600' }
+      { name: 'NodeJS/Express', level: 85, color: 'bg-indigo-600' },
+      { name: 'REST/GraphQL APIs', level: 80, color: 'bg-teal-500' },
+      { name: 'Django/FastAPI', level: 80, color: 'bg-blue-700' },
+      { name: 'Microservices', level: 75, color: 'bg-orange-600' },
+      { name: 'Authentication', level: 70, color: 'bg-red-600' }
     ]
   },
   { 
-    category: 'Databases & Warehouses', 
+    category: 'Databases', 
     skills: [
       { name: 'PostgreSQL', level: 90, color: 'bg-blue-800' },
       { name: 'MySQL', level: 85, color: 'bg-cyan-600' },
       { name: 'MongoDB', level: 75, color: 'bg-green-700' },
-      { name: 'Snowflake', level: 80, color: 'bg-blue-500' },
-      { name: 'BigQuery', level: 80, color: 'bg-purple-600' }
+      { name: 'Redis', level: 80, color: 'bg-blue-500' },
+      { name: 'Firebase', level: 80, color: 'bg-purple-600' }
     ]
   },
   { 
-    category: 'Cloud & Tools', 
+    category: 'DevOps & Tools', 
     skills: [
       { name: 'AWS', level: 80, color: 'bg-yellow-600' },
       { name: 'Docker', level: 75, color: 'bg-blue-600' },
       { name: 'Git', level: 85, color: 'bg-gray-700' },
-      { name: 'Power BI', level: 85, color: 'bg-yellow-500' },
+      { name: 'Kubernetes', level: 85, color: 'bg-yellow-500' },
       { name: 'CI/CD', level: 70, color: 'bg-green-600' }
     ]
   }
