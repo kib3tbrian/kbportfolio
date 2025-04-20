@@ -30,7 +30,6 @@ const projects = [
     category: 'Mobile Development',
     githubLink: 'https://github.com/kibet-brian/emergency-contact-app',
     liveLink: null,
-    image: '/projects/emergency-app.png',
     details: [
       'Real-time GPS location tracking with history timeline',
       'Emergency contact management system with priority levels',
