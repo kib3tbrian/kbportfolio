@@ -18,7 +18,7 @@ const skills = [
     category: 'Frontend', 
     skills: [
       { name: 'React', level: 82, color: 'bg-sky-500' },
-      { name: 'Next.js', level: 80, color: 'bg-neutral-800' },
+      { name: 'Next.js', level: 80, color: 'bg-purple-600' },
       { name: 'Tailwind CSS', level: 75, color: 'bg-teal-500' },
       { name: 'Redux', level: 76, color: 'bg-gray-700' },
       { name: 'React Native', level: 70, color: 'bg-emerald-800' }
@@ -28,7 +28,7 @@ const skills = [
     category: 'Backend', 
     skills: [
       { name: 'NodeJS/Express', level: 85, color: 'bg-indigo-600' },
-      { name: 'REST/GraphQL APIs', level: 80, color: 'bg-teal-500' },
+      { name: 'REST/GraphQL', level: 80, color: 'bg-teal-500' },
       { name: 'Django/FastAPI', level: 80, color: 'bg-blue-700' },
       { name: 'Microservices', level: 75, color: 'bg-orange-600' },
       { name: 'Authentication', level: 70, color: 'bg-red-600' }
