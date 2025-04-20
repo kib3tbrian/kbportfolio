@@ -19,8 +19,8 @@ const Layout = () => {
       darkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-900'
     }`}>
       <SEO 
-        title="Kibet Brian - Data Engineer"
-        description="Professional portfolio of Kibet Brian, a Data Engineer specializing in data pipelines, warehousing, and full-stack development."
+        title="Kibet Brian - Software Engineer"
+        description="Professional portfolio of Kibet Brian, a Software Engineer specializing in software development, system architecture, and full-stack development."
       />
       <Navbar />
       <div className="pt-20">
