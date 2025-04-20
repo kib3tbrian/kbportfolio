@@ -29,7 +29,7 @@ const Footer = () => {
               />
               <div className="flex flex-col">
                 <span className="font-bold text-xl text-gray-900 dark:text-white">Kibet Brian</span>
-                <span className="text-sm text-gray-600 dark:text-gray-400">Data Engineer</span>
+                <span className="text-sm text-gray-600 dark:text-gray-400">Software Engineer</span>
               </div>
             </Link>
           </div>
