@@ -33,8 +33,8 @@ const HomePage = () => {
   return (
     <>
       <SEO 
-        title="Kibet Brian - Data Engineer Portfolio"
-        description="Professional portfolio of Kibet Brian, a Data Engineer specializing in data pipelines, warehousing, and full-stack development."
+        title="Kibet Brian - Software Engineer Portfolio"
+        description="Professional portfolio of Kibet Brian, a Software Engineer specializing in fullstack development, backend systems and API development."
       />
       <Hero />
       <About />
