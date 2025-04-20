@@ -18,7 +18,7 @@ const SEO = ({
   url = 'https://kibetbrian.pro', 
   type = 'website' 
 }) => {
-  const siteTitle = 'Kibet Brian - Data Engineer';
+  const siteTitle = 'Kibet Brian - Software Engineer';
   const fullTitle = title === siteTitle ? title : '${title} | ${siteTitle}';
   
   return (
