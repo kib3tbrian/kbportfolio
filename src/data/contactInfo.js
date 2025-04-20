@@ -9,7 +9,7 @@ const contactInfo = {
   phone: '+254 111 800 631',
   location: 'Nairobi, Kenya',
   linkedin: 'https://www.linkedin.com/in/kibet-brian-1433b9214/',
-  github: 'https://github.com/dunnytml', // Placeholder - update with actual URL
+  github: 'https://github.com/01kibetbrian', // Placeholder - update with actual URL
   x: 'https://x.com/kibetbrian', // Placeholder - update with actual URL
   resumeUrl: '/brian_resume.pdf',
 };
