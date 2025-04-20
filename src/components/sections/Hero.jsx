@@ -82,7 +82,7 @@ const Hero = () => {
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full transition-colors shadow-lg hover:shadow-blue-500/20 flex items-center justify-center group"
             >
               <Database className="mr-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
-              <span className="font-medium">Data Projects</span>
+              <span className="font-medium">My Projects</span>
             </a>
             
             <a 
