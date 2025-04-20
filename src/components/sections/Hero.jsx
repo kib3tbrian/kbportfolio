@@ -63,19 +63,6 @@ const Hero = () => {
               </div>
               <div className="h-px w-12 bg-gray-300 dark:bg-gray-700"></div>
             </div>
-            
-            {currentPosition && (
-              <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-xl mx-auto">
-                Previously worked as{' '}
-                <span className="font-semibold text-blue-600 dark:text-blue-400">
-                  Insurance Claims Analyst
-                </span>{' '}
-                at{' '}
-                <span className="font-semibold text-gray-800 dark:text-gray-200">
-                  Penda Health
-                </span>
-              </p>
-            )}
           </motion.div>
           
           {/* Call to action buttons */}
