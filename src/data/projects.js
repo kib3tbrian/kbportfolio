@@ -24,19 +24,19 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Health & Fitness App',
-    description: 'Mobile application for fitness tracking and health monitoring',
-    technologies: ['React Native', 'Firebase', 'Node.js', 'Express', 'MongoDB'],
+    title: 'Emergency Contact & GPS App',
+    description: 'Mobile application for real-time location tracking with emergency contact system',
+    technologies: ['React Native', 'Firebase', 'Node.js', 'Google Maps API', 'MongoDB'],
     category: 'Mobile Development',
-    githubLink: 'https://github.com/kibet-brian/fitness-app',
+    githubLink: 'https://github.com/kibet-brian/emergency-contact-app',
     liveLink: null,
-    image: '/projects/fitness-app.png',
+    image: '/projects/emergency-app.png',
     details: [
-      'Developed cross-platform mobile app using React Native',
-      'Implemented real-time activity tracking',
-      'Created personalized workout plans',
-      'Integrated health data synchronization',
-      'Built social features for user engagement'
+      'Real-time GPS location tracking with history timeline',
+      'Emergency contact management system with priority levels',
+      'Automated SMS and email notifications to selected contacts',
+      'Customizable safe zones with entry/exit alerts',
+      'Battery-efficient background location tracking'
     ],
     featured: true
   },
