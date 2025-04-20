@@ -3,130 +3,135 @@
 /**
  * Projects data
  */
+// src/data/projects.js
+
+/**
+ * Projects data
+ */
 const projects = [
   {
     id: 1,
-    title: 'Insurance Claims Data Pipeline',
-    description: 'End-to-end data pipeline for processing and analyzing insurance claims data',
-    technologies: ['Python', 'Airflow', 'PostgreSQL', 'Power BI', 'Docker'],
-    category: 'Data Engineering',
-    githubLink: 'https://github.com/kibet-brian/insurance-claims-pipeline',
+    title: 'Auto Motor Sales Platform',
+    description: 'Full-stack automotive marketplace for buying and selling vehicles',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Redux', 'AWS'],
+    category: 'Web Development',
+    githubLink: 'https://github.com/kibet-brian/auto-motor-sales',
     liveLink: null,
-    image: '/projects/insurance-pipeline.png',
+    image: '/projects/auto-sales.png',
     details: [
-      'Automated ETL workflows for claims data processing',
-      'Implemented data validation and quality checks',
-      'Built data models optimized for analytical queries',
-      'Created real-time dashboards for monitoring claims metrics',
-      'Reduced processing time by 40% through pipeline optimization'
+      'Built advanced vehicle search and filtering system',
+      'Implemented secure payment processing for vehicle deposits',
+      'Created dealer and private seller dashboards',
+      'Integrated vehicle history report services',
+      'Developed automated price comparison tools'
     ],
     featured: true
   },
   {
     id: 2,
-    title: 'Banking Data Warehouse',
-    description: 'Modern data warehouse solution for banking transaction data',
-    technologies: ['dbt', 'Snowflake', 'Python', 'AWS', 'SQL'],
-    category: 'Data Engineering',
-    githubLink: 'https://github.com/kibet-brian/banking-dw',
+    title: 'Health & Fitness App',
+    description: 'Mobile application for fitness tracking and health monitoring',
+    technologies: ['React Native', 'Firebase', 'Node.js', 'Express', 'MongoDB'],
+    category: 'Mobile Development',
+    githubLink: 'https://github.com/kibet-brian/fitness-app',
     liveLink: null,
-    image: '/projects/banking-dw.png',
+    image: '/projects/fitness-app.png',
     details: [
-      'Designed dimensional models for transactional data',
-      'Implemented incremental loading patterns',
-      'Created data transformation layers using dbt',
-      'Set up monitoring and alerting for data quality issues',
-      'Documented data lineage and business definitions'
+      'Developed cross-platform mobile app using React Native',
+      'Implemented real-time activity tracking',
+      'Created personalized workout plans',
+      'Integrated health data synchronization',
+      'Built social features for user engagement'
     ],
     featured: true
   },
   {
     id: 3,
-    title: 'Healthcare Analytics Dashboard',
-    description: 'Interactive dashboard for visualizing healthcare metrics',
-    technologies: ['Power BI', 'SQL', 'Python', 'DAX', 'ETL'],
-    category: 'Data Visualization',
-    githubLink: 'https://github.com/kibet-brian/healthcare-dashboard',
+    title: 'Banking REST API',
+    description: 'Secure RESTful API for banking operations',
+    technologies: ['Node.js', 'Express', 'PostgreSQL', 'JWT', 'Docker'],
+    category: 'API Development',
+    githubLink: 'https://github.com/kibet-brian/banking-api',
     liveLink: null,
-    image: '/projects/healthcare-dashboard.png',
+    image: '/projects/banking-api.png',
     details: [
-      'Built interactive reports with drill-down capabilities',
-      'Created custom visualizations for clinical metrics',
-      'Implemented row-level security for data access',
-      'Optimized queries for faster dashboard loading',
-      'Automated data refresh processes'
+      'Designed secure API architecture',
+      'Implemented OAuth2 authentication',
+      'Created comprehensive API documentation',
+      'Built transaction processing system',
+      'Implemented rate limiting and security measures'
     ],
     featured: true
   },
   {
     id: 4,
-    title: 'Real-time Data Streaming Platform',
-    description: 'Platform for processing streaming data from IoT devices',
-    technologies: ['Kafka', 'PySpark', 'AWS', 'MongoDB', 'Docker'],
-    category: 'Data Engineering',
-    githubLink: 'https://github.com/kibet-brian/stream-platform',
+    title: 'Home Listings Platform',
+    description: 'Modern web platform for property listings and viewings',
+    technologies: ['Vue.js', 'Django', 'PostgreSQL', 'Redis', 'AWS'],
+    category: 'Web Development',
+    githubLink: 'https://github.com/kibet-brian/home-listings',
     liveLink: null,
-    image: '/projects/streaming-platform.png',
+    image: '/projects/home-listings.png',
     details: [
-      'Designed scalable architecture for high-throughput data',
-      'Implemented real-time data processing with Kafka and PySpark',
-      'Created monitoring dashboards for stream health',
-      'Set up automated alerts for anomaly detection',
-      'Optimized for cost efficiency on AWS'
+      'Developed advanced property search with multiple filters',
+      'Implemented virtual tour and 3D viewing features',
+      'Created automated property valuation system',
+      'Integrated with multiple real estate APIs',
+      'Built appointment scheduling system for viewings'
     ],
     featured: false
   },
   {
     id: 5,
-    title: 'Customer 360 Data Platform',
-    description: 'Unified customer data platform for a financial institution',
-    technologies: ['Python', 'PostgreSQL', 'REST API', 'ETL', 'Docker'],
-    category: 'Data Engineering',
-    githubLink: 'https://github.com/kibet-brian/customer-360',
+    title: 'Delivery Tracking App',
+    description: 'Mobile app for real-time delivery tracking',
+    technologies: ['Flutter', 'Firebase', 'Google Maps API', 'Node.js', 'MongoDB'],
+    category: 'Mobile Development',
+    githubLink: 'https://github.com/kibet-brian/delivery-app',
     liveLink: null,
-    image: '/projects/customer-platform.png',
+    image: '/projects/delivery-app.png',
     details: [
-      'Consolidated customer data from multiple source systems',
-      'Implemented identity resolution algorithms',
-      'Built REST APIs for accessing unified customer profiles',
-      'Created data governance workflows',
-      'Designed for GDPR compliance and data security'
+      'Developed real-time tracking system',
+      'Implemented push notifications',
+      'Created driver and customer interfaces',
+      'Integrated payment processing',
+      'Built route optimization algorithm'
     ],
     featured: true
   },
   {
     id: 6,
-    title: 'Data Quality Monitoring Tool',
-    description: 'Automated tool for monitoring and reporting data quality issues',
-    technologies: ['Python', 'SQL', 'Airflow', 'React', 'FastAPI'],
-    category: 'Data Engineering',
-    githubLink: 'https://github.com/kibet-brian/data-quality-monitor',
+    title: 'Social Media API',
+    description: 'Scalable API for social media platform',
+    technologies: ['FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'AWS'],
+    category: 'API Development',
+    githubLink: 'https://github.com/kibet-brian/social-api',
     liveLink: null,
-    image: '/projects/data-quality.png',
+    image: '/projects/social-api.png',
     details: [
-      'Implemented configurable data quality checks',
-      'Created visual reporting of quality metrics over time',
-      'Set up automated alerting for threshold violations',
-      'Built user interface for managing rules and thresholds',
-      'Integrated with existing data pipelines'
+      'Designed scalable microservices architecture',
+      'Implemented real-time notifications',
+      'Created content moderation system',
+      'Built analytics and reporting endpoints',
+      'Developed user authentication system'
     ],
     featured: false
   },
   {
     id: 7,
-    title: 'Financial Data API',
-    description: 'RESTful API for accessing and analyzing financial data',
-    technologies: ['FastAPI', 'PostgreSQL', 'Python', 'Docker', 'JWT'],
+    title: 'Escrow Holding Service',
+    description: 'Secure platform for managing escrow transactions',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'JWT'],
     category: 'Web Development',
-    githubLink: 'https://github.com/kibet-brian/financial-api',
+    githubLink: 'https://github.com/kibet-brian/escrow-service',
     liveLink: null,
-    image: '/projects/financial-api.png',
+    image: '/projects/escrow-service.png',
     details: [
-      'Designed RESTful API endpoints for financial data access',
-      'Implemented authentication and authorization',
-      'Created comprehensive API documentation',
-      'Built rate limiting and API usage analytics',
-      'Optimized query performance for high-traffic endpoints'
+      'Implemented secure multi-party transaction system',
+      'Built automated verification and validation processes',
+      'Created dispute resolution management system',
+      'Integrated secure payment processing with Stripe',
+      'Developed comprehensive transaction tracking'
     ],
     featured: true
   }
