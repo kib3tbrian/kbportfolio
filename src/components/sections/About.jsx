@@ -61,14 +61,14 @@ const About = () => {
             
             <div className="space-y-4 text-gray-600 dark:text-gray-300 mb-8">
               <p className="leading-relaxed">
-                I'm a results-oriented Data Engineer with a passion for building scalable data pipelines and 
-                data-driven applications. With {experienceYears} years of experience in the field, I've developed a strong 
-                foundation in both data engineering and full-stack development.
+                I'm a results-oriented Software Engineer with expertise in building scalable systems and full-stack applications. 
+                With {experienceYears} years of experience, I've developed strong skills across the entire development stack, 
+                specializing in backend architecture, API design, and robust software solutions.
               </p>
               <p className="leading-relaxed">
-                My approach combines rigorous data management principles with user-centered application design, 
-                resulting in efficient data workflows and intuitive end-user experiences. I enjoy solving complex 
-                data problems and continuously expanding my technical skills in this rapidly evolving field.
+                My approach combines clean code principles with scalable system design, delivering performant applications with well-structured APIs. 
+                I thrive on solving complex technical challenges and continuously expanding my skills in this fast-paced industry, 
+                from low-level system optimization to intuitive user interfaces.
               </p>
             </div>
             
