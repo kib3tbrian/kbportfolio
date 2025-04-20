@@ -3,11 +3,6 @@
 /**
  * Projects data
  */
-// src/data/projects.js
-
-/**
- * Projects data
- */
 const projects = [
   {
     id: 1,
