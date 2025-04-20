@@ -1,10 +1,48 @@
-// src/data/workExperience.js
-
 /**
  * Work experience data
  * Contains professional history information
  */
 const workExperience = [
+  {
+    company: 'Turi MultiAgency',
+    location: 'Nairobi, Kenya',
+    website: 'https://turimultiagency.com', 
+    roles: [
+      {
+        title: 'Web Developer',
+        period: 'Jan 2025 - Present',
+        type: 'Full-time',
+        responsibilities: [
+          'Develop and maintain responsive web applications using modern frameworks',
+          'Implement RESTful APIs to connect frontend interfaces with backend services',
+          'Optimize web performance and ensure cross-browser compatibility',
+          'Collaborate with UX designers to create intuitive user interfaces',
+          'Implement security best practices for web applications'
+        ],
+        technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'REST APIs']
+      }
+    ]
+  },
+  {
+    company: 'Nogeybix Inc',
+    location: 'Nairobi, Kenya',
+    website: 'https://nogeybix.com', 
+    roles: [
+      {
+        title: 'Mobile Developer',
+        period: 'March 2022 - Present',
+        type: 'Full-time',
+        responsibilities: [
+          'Develop and maintain cross-platform mobile applications using React Native',
+          'Implement mobile-specific features like push notifications and offline capabilities',
+          'Optimize app performance and reduce load times',
+          'Collaborate with backend teams to integrate mobile apps with APIs',
+          'Ensure app compliance with platform-specific guidelines (App Store/Play Store)'
+        ],
+        technologies: ['React Native', 'Firebase', 'Redux', 'Mobile UI/UX', 'API Integration']
+      }
+    ]
+  },
   {
     company: 'Penda Health',
     location: 'Nairobi, Kenya',
@@ -49,7 +87,7 @@ const workExperience = [
 
 // Helper functions
 export const getTotalExperienceYears = () => {
-  const startDate = new Date('2023-07-01'); // First job start date
+  const startDate = new Date('2022-03-17'); // Updated to Nogeybix start date
   const currentDate = new Date();
   const yearDiff = currentDate.getFullYear() - startDate.getFullYear();
   const monthDiff = currentDate.getMonth() - startDate.getMonth();
@@ -58,26 +96,11 @@ export const getTotalExperienceYears = () => {
 };
 
 export const getCurrentPosition = () => {
-  // Find the most recent role
-  let current = null;
-  let latestDate = new Date(0);
-  
-  workExperience.forEach(exp => {
-    exp.roles.forEach(role => {
-      if (role.period.includes('Present')) {
-        const startDate = new Date(role.period.split(' - ')[0]);
-        if (startDate > latestDate) {
-          latestDate = startDate;
-          current = {
-            role: role.title,
-            company: exp.company
-          };
-        }
-      }
-    });
-  });
-  
-  return current;
+  // Since both Turi and Nogeybix are "Present", we'll return Turi as it's more recent
+  return {
+    role: 'Web Developer',
+    company: 'Turi MultiAgency'
+  };
 };
 
 export default workExperience;
