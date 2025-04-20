@@ -6,7 +6,7 @@
 const projects = [
   {
     id: 1,
-    title: 'Auto Motor Sales Platform',
+    title: 'Auto Sales Platform',
     description: 'Full-stack automotive marketplace for buying and selling vehicles',
     technologies: ['React', 'Node.js', 'MongoDB', 'Redux', 'AWS'],
     category: 'Web Development',
@@ -30,6 +30,7 @@ const projects = [
     category: 'Mobile Development',
     githubLink: 'https://github.com/kibet-brian/emergency-contact-app',
     liveLink: null,
+    image: '/projects/destress.png',
     details: [
       'Real-time GPS location tracking with history timeline',
       'Emergency contact management system with priority levels',
