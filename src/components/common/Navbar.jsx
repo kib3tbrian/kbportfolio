@@ -70,7 +70,7 @@ const Navbar = () => {
               Kibet Brian
             </span>
             <span className="text-xs text-gray-600 dark:text-gray-400">
-              Data Engineer
+              Software Engineer
             </span>
           </div>
         </Link>
