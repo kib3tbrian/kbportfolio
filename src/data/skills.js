@@ -10,14 +10,14 @@ const skills = [
       { name: 'Python', level: 90, color: 'bg-blue-500' },
       { name: 'SQL', level: 85, color: 'bg-green-600' },
       { name: 'TypeScript', level: 78, color: 'bg-indigo-500' },
-      { name: 'Go', level: 70, color: 'bg-cyan-600' }
+      { name: 'Go', level: 70, color: 'bg-cyan-600' },
+      { name: 'Solidity', level: 78, color: 'bg-red-500' },
     ]
   },
   { 
     category: 'Data Engineering', 
     skills: [
       { name: 'Apache Airflow', level: 90, color: 'bg-blue-800' },
-      { name: 'dbt', level: 85, color: 'bg-cyan-600' },
       { name: 'Apache Spark', level: 75, color: 'bg-green-700' },
       { name: 'Snowflake', level: 80, color: 'bg-blue-500' },
       { name: 'Pandas', level: 80, color: 'bg-purple-600' }
