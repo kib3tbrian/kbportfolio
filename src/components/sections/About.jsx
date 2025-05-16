@@ -61,14 +61,10 @@ const About = () => {
             
             <div className="space-y-4 text-gray-600 dark:text-gray-300 mb-8">
               <p className="leading-relaxed">
-                I'm a results-oriented Software Engineer with expertise in building scalable systems and full-stack applications. 
-                With {experienceYears} years of experience, I've developed strong skills across the entire development stack, 
-                specializing in backend architecture, API design, and robust software solutions.
+                Results-driven Software Engineer with 3.2 years of experience architecting scalable systems and end-to-end solutions, from robust backend infrastructure to seamless user experiences. My work bridges data and decentralization—designing efficient pipelines to transform raw data into actionable insights while exploring the transformative potential of blockchain and Web3 technologies.
               </p>
               <p className="leading-relaxed">
-                My approach combines clean code principles with scalable system design, delivering performant applications with well-structured APIs. 
-                I thrive on solving complex technical challenges and continuously expanding my skills in this fast-paced industry, 
-                from low-level system optimization to intuitive user interfaces.
+                I thrive in dynamic environments, tackling complex challenges with a focus on performance, clean architecture, and future-ready systems, whether optimizing low-level processes or bridging gaps between cutting-edge tech and real-world applications.
               </p>
             </div>
             
