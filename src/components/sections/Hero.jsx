@@ -19,7 +19,7 @@ const Hero = () => {
       strings: [
         'Software Engineer', 
         'Full Stack Developer', 
-        'Backend Engineer',
+        'Data Engineer',
         'API Developer'
       ],
       typeSpeed: 50,
