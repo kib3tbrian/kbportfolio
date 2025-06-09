@@ -52,7 +52,7 @@ Edit content in `/src/data` directory:
 - MIT License - no attribution required
 
 ## Contact
-Kibet Brian - [hello@kibetbrian.pro](mailto:hello@kibetbrian.pro)
+Kibet Brian - [its.kibetbrian@gmail.com](mailto:its.kibetbrian@gmail.com)
 GitHub: [Dunny](https://github.com/dunnytml)
 Live: [kibetbrian.pro](https://kibetbrian.pro)
 
