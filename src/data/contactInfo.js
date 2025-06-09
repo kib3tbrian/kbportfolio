@@ -5,7 +5,7 @@
  * Central place to manage all contact details
  */
 const contactInfo = {
-  email: 'hello@kibetbrian.pro',
+  email: 'its.kibetbrian@gmail.com',
   phone: '+254 111 800 631',
   location: 'Nairobi, Kenya',
   linkedin: 'https://www.linkedin.com/in/kibet-brian-1433b9214/',
